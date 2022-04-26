@@ -8,6 +8,7 @@ import androidx.fragment.app.FragmentManager
 import androidx.fragment.app.FragmentTransaction
 
 class MainActivity : AppCompatActivity() {
+    
     private lateinit var firstFragmentBtn: Button;
     private lateinit var secondFragmentBtn: Button;
 
@@ -26,6 +27,7 @@ class MainActivity : AppCompatActivity() {
 
             replaceFragment( Fragment(R.layout.fragment_2));
         }
+
 
     }
 

@@ -16,11 +16,17 @@ private const val ARG_PARAM2 = "param2"
  * A simple [Fragment] subclass.
  * Use the [Fragment1.newInstance] factory method to
  * create an instance of this fragment.
+ *
+ * In this fragment we would be dealing with android services
+ *
  */
 class Fragment1 : Fragment() {
     // TODO: Rename and change types of parameters
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
+
+
+
       }
 
     override fun onCreateView(
